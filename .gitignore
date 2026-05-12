@@ -1,13 +1,16 @@
-# Dossier de build
+# Build folder
 build/
 
-# Fichiers objets et binaires
+# Unfollowed file
+.venv/
+
+# Object and binary files
 *.o
 *.a
 *.so
 *.exe
 
-# Fichiers CMake générés
+# CMake generated files
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
